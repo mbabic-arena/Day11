@@ -1,7 +1,7 @@
 // Only change code below this line
 var myNestedArray = [
   ["Toblerone", 5],
-  ["Milka", 3],
+  ["Milka", 3]
 ];
 
 function myNestedFunction(arr) {

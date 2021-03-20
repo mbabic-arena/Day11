@@ -2,7 +2,10 @@
 function splitArrayInGroups(arr, n) {
   var result = [];
 
-  return result;
+  for (var i = 0; i < arr.length; i += n) {
+    result.push(arr.slice(i, i + n));
+  }
+  return result.slice(0, n);
 }
 splitArrayInGroups(["a", "b", "c", "d"], 2);
 // Only change code above this line
